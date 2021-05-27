@@ -1,6 +1,4 @@
 html, body {
-    scroll-behavior: smooth;
-    height: 100%;
     background-color: black;
 }
 
@@ -8,54 +6,30 @@ html, body {
     font-family: "Agency FB";
     font-weight: bold;
     font-size: 100px;
-    display: flex;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #SubText {
     font-family: "Agency FB";
     font-weight: bold;
     font-size: 35px;
-    display: flex;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #Information_Header {
     font-family: "Agency FB";
     font-weight: normal;
     font-size: 35px;
-    display: flex;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #Resume_Header {
     font-family: "Agency FB";
     font-weight: normal;
     font-size: 35px;
-    display: flex;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #infolink {
-    position: fixed;
-    right: 95px;
 }
 
 #resulink {
-    position: fixed;
-    right: 30px;
 }
 
 .shadower {
@@ -71,58 +45,35 @@ html, body {
 }
 
 .logo {
-    height: 35px;
-    position: fixed;
-    top: 1.25%;
-    z-index: 5;
 }
 
 .navlink {
-    transition-duration: 1s;
     color: #ff0000;
     font-family: "Agency FB";
     font-size: 21px;
-    display: flex;
     text-decoration: none;
-    position: absolute;
-    top: 1.75%;
-    z-index: 5;
 }
 
 .navlink:active {
-    transition-duration: 0s;
     color: white;
 }
 
 .section {
-    position: relative;
-    height: 100%;
 }
 
 .page-button {
-    transition: background .5s, color .5s, padding .5s, font-weight .5s, font-size .5s, box-shadow .5s;
-    /*transition-duration: 5s;*/
     background: #ff0000;
     border: none;
     color: #000000;
-    padding: 15px 40px;
     font-weight: bolder;
     font-size: 20px;
     font-family: "Agency FB";
-    box-shadow: 0 0 5px #ff0000;
-
-    position: absolute;
-    left: 50%;
-    bottom: 10%;
-    transform: translate(-50%, -50%);
 }
 
 .page-button:hover {
-    transition-duration: .5s;
     box-shadow: 0 0 15px #ff0000;
 }
 
 .page-button:active {
-    transition-duration: 0s;
     color: white;
 }

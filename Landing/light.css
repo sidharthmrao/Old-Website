@@ -1,64 +1,35 @@
 html, body {
-    height: 100%;
     background-color: white;
-}
-
-input {
-
 }
 
 #Main_Title {
     font-family: "Agency FB";
     font-weight: bold;
     font-size: 100px;
-    display: flex;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #SubText {
     font-family: "Agency FB";
     font-weight: bold;
     font-size: 35px;
-    display: flex;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #Information_Header {
     font-family: "Agency FB";
     font-weight: normal;
     font-size: 35px;
-    display: flex;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #Resume_Header {
     font-family: "Agency FB";
     font-weight: normal;
     font-size: 35px;
-    display: flex;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #infolink {
-    position: fixed;
-    right: 95px;
 }
 
 #resulink {
-    position: fixed;
-    right: 30px;
 }
 
 .shadower {
@@ -74,24 +45,35 @@ input {
 }
 
 .logo {
-    height: 35px;
-    position: fixed;
-    top: 1.25%;
-    z-index: 5;
 }
 
 .navlink {
     color: #0076FFE6;
     font-family: "Agency FB";
     font-size: 21px;
-    display: flex;
     text-decoration: none;
-    position: absolute;
-    top: 1.75%;
-    z-index: 5;
+}
+
+.navlink:active {
+    color: white;
 }
 
 .section {
-    position: relative;
-    height: 100%;
+}
+
+.page-button {
+    background: #0076FFE6;
+    border: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Agency FB";
+}
+
+.page-button:hover {
+    box-shadow: 0 0 15px #0076FFE6;
+}
+
+.page-button:active {
+    color: #ff0000;
 }

@@ -1,0 +1,101 @@
+html, body {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+#Main_Title {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#SubText {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Information_Header {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Resume_Header {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#infolink {
+    position: fixed;
+    right: 95px;
+}
+
+#resulink {
+    position: fixed;
+    right: 30px;
+}
+
+.shadower {
+}
+
+.shadowed {
+}
+
+.logo {
+    height: 35px;
+    position: fixed;
+    top: 1.25%;
+    z-index: 5;
+}
+
+.navlink {
+    transition-duration: 1s;
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    top: 1.75%;
+    z-index: 5;
+}
+
+.navlink:active {
+    transition-duration: 0s;
+}
+
+.section {
+    position: relative;
+    height: 100%;
+}
+
+.page-button {
+    transition: background .5s, color .5s, padding .5s, font-weight .5s, font-size .5s, box-shadow .5s;
+    /*transition-duration: 5s;*/
+    border: none;
+    padding: 15px 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Agency FB";
+
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.page-button:hover {
+    transition-duration: .5s;
+}
+
+.page-button:active {
+    transition-duration: 0s;
+
+}
