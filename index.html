@@ -7,7 +7,14 @@
     <link rel="stylesheet" href= "main.css">
     <link rel="stylesheet" href= "dark.css" id = "stylemain" title = "Stylemain">
     <link rel="stylesheet" href= "gameoflife.css">
-    <title>Home</title>
+    <title>Sidharth Rao - Personal Website</title>
+
+    <!---GOOGLE FONTS--->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -27,10 +34,10 @@
         <section id = "head" class = "section">
             <h  id  = "Main_Title"  class = "shadower"          > SIDHARTH RAO    </h>
             <h3 id  = "SubText"     class = "shadowed scrambletext"  ></h3>
-            <button id = "githublink" type = "image" onclick = "window.location.href='https://github.com/sidharthmrao'" class = "social-button">
+            <button id = "githublink" type = "image" onclick = "window.open('https://github.com/sidharthmrao', '_blank')" class = "social-button">
                 <img class = social-img src="Assets/github-logo.png">
             </button>
-            <button id = "linkedinlink" type = "image" onclick = "window.location.href='https://www.linkedin.com/in/sidharth-rao-074770198/'" class = "social-button">
+            <button id = "linkedinlink" type = "image" onclick = "window.open('https://www.linkedin.com/in/sidharth-rao-074770198/', '_blank')" class = "social-button">
                 <img class = social-img src="Assets/linkedin-logo.png">
             </button>
         </section>
@@ -39,10 +46,10 @@
             <h id = "Information_Header" class = "shadower">INFORMATION</h>
             <div class = "paradiv">
                 <p class = "shadower parapara">
-                    Hi! I'm a Junior at Choate Rosemary Hall, a High School located in Wallingford, Connecticut. I'm interested in
-                    Computer Science, AI, Web Design, Cyber Security, and Programming, mainly in Python. In my free time, I like to
-                    play the Cello, mess around with Rubik's Cubes, learn card magic, and develop automated scripts for me to use in
-                    my daily life. On this website, you can find more information about me, my accomplishments, programs, and contact me.
+                    HI! I'M A JUNIOR AT CHOATE ROSEMARY HALL, A HIGH SCHOOL LOCATED IN WALLINGFORD, CONNECTICUT. I'M INTERESTED IN
+                    COMPUTER SCIENCE, AI, WEB DESIGN, CYBER SECURITY, AND PROGRAMMING, MAINLY IN PYTHON. IN MY FREE TIME, I LIKE TO
+                    PLAY THE CELLO, MESS AROUND WITH RUBIK'S CUBES, LEARN CARD MAGIC, AND DEVELOP AUTOMATED SCRIPTS FOR ME TO USE IN
+                    MY DAILY LIFE. ON THIS WEBSITE, YOU CAN FIND MORE INFORMATION ABOUT ME, MY ACCOMPLISHMENTS, PROGRAMS, AND CONTACT ME.
                 </p>
             </div>
             <button onclick = "run()" id = "more-info" class = "page-button">MORE</button>
@@ -50,6 +57,26 @@
 
         <section id = "resume" class = "section">
             <h id = "Resume_Header" class = "shadower">RESUME</h>
+
+            <div id = "resume-jobs" class = "paradiv">
+                <p style = "text-align: left;" class = "shadower parapara">
+                    a
+                </p>
+            </div>
+            <div id = "resume-skills" class = "paradiv">
+                <p style = "text-align: left;" class = "shadower parapara">
+                    a
+                </p>
+            </div>
+            <div id = "resume-achievements" class = "paradiv">
+                <p style = "text-align: left;" class = "shadower parapara">
+                    a
+                </p>
+            </div>
+
+
+
+
             <button id = "view-resu" class = "page-button" type="submit" onclick="window.open('Files/Sidharth Rao - Resume.pdf')">VIEW ONLINE</button>
             <button id = "download-resu" class = "page-button" type="submit" onclick="document.getElementById('resumedownload').click()">DOWNLOAD</button>
             <a id = "resumedownload" href="Files/Sidharth Rao - Resume.pdf" download></a>
@@ -63,6 +90,10 @@
             window.onload = function() {start();}
 
         </script>
+
+        <footer>
+            <p class="specialpara">To access the repository for this page, visit this link: <a target = "_blank" href = "https://github.com/sidharthmrao/sidharthmrao.github.io">REPO</a></p>
+        </footer>
 
 </body>
 

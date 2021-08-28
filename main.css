@@ -155,7 +155,7 @@ html, body {
     transition-duration: .5s;
     text-align: center;
     font-size: 20px;
-    font-family: 'Arial';
+    font-family: 'Roboto Condensed', sans-serif;
     border-color: red;
     border-width: 2px;
     border-style: solid;
@@ -165,7 +165,44 @@ html, body {
     padding-bottom: 20px;
 }
 
+#resume-jobs {
+    width: 450px;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+#resume-skills {
+    width: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#resume-achievements {
+    width: 450px;
+    left: 83%;
+    transform: translate(-50%, -50%);
+}
+
 .parapara:hover {
     transition-duration: .5s;
     box-shadow: 0 0 15px #ff0000;
+    font-weight: bold;
+}
+
+.specialpara {
+    color: red;
+    font-family: 'Roboto Condensed', sans-serif;
+    animation: specialpara-pulse 0.9s infinite ease-out;
+}
+
+@keyframes specialpara-pulse {
+    0% {
+        box-shadow: 0 0 0 #ff0000;
+    }
+    50% {
+        box-shadow: 0 0 30px red;
+    }
+    100% {
+        box-shadow: 0 0 0 #ff0000;
+    }
 }
