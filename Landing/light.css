@@ -1,5 +1,5 @@
 html, body {
-    background-color: black;
+    background-color: white;
 }
 
 #Main_Title {
@@ -33,14 +33,13 @@ html, body {
 }
 
 .shadower {
-    background: -webkit-linear-gradient(#ff0000, #ff0000);
+    background: #0076FFE6;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .shadowed {
-    /*text-shadow: 0px 0px 5px #ff0000;*/
-    background: -webkit-linear-gradient(#000000, #ff0000);
+    background: #0076FFE6;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -49,7 +48,7 @@ html, body {
 }
 
 .navlink {
-    color: #ff0000;
+    color: #0076FFE6;
     font-family: "Agency FB";
     font-size: 21px;
     text-decoration: none;
@@ -63,35 +62,18 @@ html, body {
 }
 
 .page-button {
-    background: #ff0000;
+    background: #0076FFE6;
     border: none;
-    color: #000000;
+    color: #ffffff;
     font-weight: bolder;
     font-size: 20px;
     font-family: "Agency FB";
 }
 
 .page-button:hover {
-    box-shadow: 0 0 15px #ff0000;
+    box-shadow: 0 0 15px #0076FFE6;
 }
 
 .page-button:active {
-    color: white;
-}
-
-.link-button {
-    background: #ff0000;
-    border: none;
-    color: #000000;
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: "Agency FB";
-}
-
-.link-button:hover {
-    box-shadow: 0 0 15px #ff0000;
-}
-
-.link-button:active {
-    color: white;
+    color: #ff0000;
 }

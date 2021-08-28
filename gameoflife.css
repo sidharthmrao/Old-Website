@@ -1,0 +1,9 @@
+.gameOfLifeButton {
+    border: 1px solid white;
+    background: black;
+    /*padding: 15px 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);*/
+}
