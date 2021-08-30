@@ -13,7 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
@@ -32,7 +32,7 @@
 
 
         <section id = "head" class = "section">
-            <h  id  = "Main_Title"  class = "shadower"          > SIDHARTH RAO    </h>
+            <h  style = "font-size: 90px;" id  = "Main_Title"  class = "shadower"          > SIDHARTH RAO    </h>
             <h3 id  = "SubText"     class = "shadowed scrambletext"  ></h3>
             <button id = "githublink" type = "image" onclick = "window.open('https://github.com/sidharthmrao', '_blank')" class = "social-button">
                 <img class = social-img src="Assets/github-logo.png">
@@ -45,12 +45,14 @@
         <section id = "information" class = "section">
             <h id = "Information_Header" class = "shadower">INFORMATION</h>
             <div class = "paradiv">
-                <p class = "shadower parapara">
-                    HI! I'M A JUNIOR AT CHOATE ROSEMARY HALL, A HIGH SCHOOL LOCATED IN WALLINGFORD, CONNECTICUT. I'M INTERESTED IN
-                    COMPUTER SCIENCE, AI, WEB DESIGN, CYBER SECURITY, AND PROGRAMMING, MAINLY IN PYTHON. IN MY FREE TIME, I LIKE TO
-                    PLAY THE CELLO, MESS AROUND WITH RUBIK'S CUBES, LEARN CARD MAGIC, AND DEVELOP AUTOMATED SCRIPTS FOR ME TO USE IN
-                    MY DAILY LIFE. ON THIS WEBSITE, YOU CAN FIND MORE INFORMATION ABOUT ME, MY ACCOMPLISHMENTS, PROGRAMS, AND CONTACT ME.
-                </p>
+                <div style = "height: auto; text-align: center;" class = "shadower parainnerdiv">
+                    <p style="font-size: 20px;" class = "shadower parapara">
+                        HI! I'M A JUNIOR AT CHOATE ROSEMARY HALL, A HIGH SCHOOL LOCATED IN WALLINGFORD, CONNECTICUT. I'M INTERESTED IN
+                        COMPUTER SCIENCE, AI, WEB DESIGN, CYBER SECURITY, AND PROGRAMMING, MAINLY IN PYTHON. IN MY FREE TIME, I LIKE TO
+                        PLAY THE CELLO, MESS AROUND WITH RUBIK'S CUBES, LEARN CARD MAGIC, AND DEVELOP AUTOMATED SCRIPTS FOR ME TO USE IN
+                        MY DAILY LIFE. ON THIS WEBSITE, YOU CAN FIND MORE INFORMATION ABOUT ME, MY ACCOMPLISHMENTS, PROGRAMS, AND CONTACT ME.
+                    </p>
+                </div>
             </div>
             <button onclick = "run()" id = "more-info" class = "page-button">MORE</button>
         </section>
@@ -59,19 +61,71 @@
             <h id = "Resume_Header" class = "shadower">RESUME</h>
 
             <div id = "resume-jobs" class = "paradiv">
-                <p style = "text-align: left;" class = "shadower parapara">
-                    a
-                </p>
+                <div style = "text-align: center; overflow: auto;" class = "shadower parainnerdiv">
+                    <h class = "shadower" style="font-weight: bold; text-align: center;">Experience</h>
+                    <p style = "text-align: left; border-color: transparent; font-weight: normal;" class = "shadower parapara">
+                        - ROVICARE AI : PROGRAMMER (MEDICAL FORMS OCR ANALYSIS) <br><br>
+                        - DOCASSIST AI : PROGRAMMER (AUTOMATED DATA CONVERSION AND ANALYSIS, CURRENTLY WORKING ON MEDICAL CASE STUDY ANALYSIS) <br><br>
+                        - MEMBER OF THE CHOATE ROBOTICS TEAM <br><br>
+                        - TEACHING PYTHON AT ROBOTICS AND BEYOND <br><br>
+                        - TEACHING AI WITH ARDUINO AT ROBOTICS AND BEYOND
+                    </p>
+                </div>
             </div>
-            <div id = "resume-skills" class = "paradiv">
-                <p style = "text-align: left;" class = "shadower parapara">
-                    a
-                </p>
+
+            <div style = " overflow: auto;" id = "resume-skills" class = "paradiv">
+                <div style = "text-align: center;" class = "shadower parainnerdiv">
+                    <h class = "shadower" style="font-weight: bold; text-align: center;">Skills</h>
+
+                    <p style = "text-align: left; border-color: transparent; font-weight: normal; font-size: 15px;" class = "shadower parapara">Experienced in multiple programming languages, including:</p>
+                    <ul style="color: rgba(135,0,255,1); text-align: left; font-weight: normal; font-size: 14px;">
+
+                        <li style="font-weight: bold;">
+                            Python (Advanced)
+                            <ul style="font-weight: normal;">
+                                <li>Machine Learning</li>
+                                <li>Data Science and Manipulation</li>
+                                <li>Automation</li>
+                            </ul>
+                        </li>
+
+                        <li style="font-weight: bold;">
+                            Java (Basic)
+                            <ul style="font-weight: normal;">
+                                <li>Java Plugins for Minecraft</li>
+                            </ul>
+                        </li>
+
+                        <li style="font-weight: bold;">
+                            HTML, CSS, and JS
+                        </li>
+
+                        <li style="font-weight: bold;">
+                            Onshape CAD
+                        </li>
+                    </ul>
+
+                    <p style = "text-align: left; border-color: transparent; font-weight: normal; font-size: 15px;" class = "shadower parapara">Strong in STEM:</p>
+                    <ul style="color: rgba(135,0,255,1); text-align: left; font-weight: normal; font-size: 14px;">
+                        <li style="font-weight: bold;">Completed Honors Calculus BC, Honors Robotics Design and Fabrication, Honors Competition Robotics, and Honors Chemistry</li>
+                    </ul>
+                    <p style = "text-align: left; border-color: transparent; font-weight: normal; font-size: 15px;" class = "shadower parapara">Languages:</p>
+                    <ul style="color: rgba(135,0,255,1); text-align: left; font-weight: normal; font-size: 14px;">
+                        <li style="font-weight: bold;">English (Fluent)</li>
+                        <li style="font-weight: bold;">Mandarin Chinese (2 years)</li>
+                        <li style="font-weight: bold;">Hindi (Speaking)</li>
+                    </ul>
+
+                </div>
             </div>
+
             <div id = "resume-achievements" class = "paradiv">
-                <p style = "text-align: left;" class = "shadower parapara">
-                    a
-                </p>
+                <div style = "text-align: center;" class = "shadower parainnerdiv">
+                    <h class = "shadower" style="font-weight: bold; text-align: center;">Achievements</h>
+                    <p style = "text-align: left; border-color: transparent; font-weight: normal;" class = "shadower parapara">
+                        stuff
+                    </p>
+                </div>
             </div>
 
 

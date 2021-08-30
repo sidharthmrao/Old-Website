@@ -3,25 +3,23 @@ html, body {
 }
 
 #Main_Title {
-    font-family: "Agency FB";
     font-weight: bold;
     font-size: 100px;
 }
 
 #SubText {
-    font-family: "Agency FB";
     font-weight: bold;
     font-size: 35px;
 }
 
 #Information_Header {
-    font-family: "Agency FB";
+    font-family: "outageregular", serif;
     font-weight: normal;
     font-size: 35px;
 }
 
 #Resume_Header {
-    font-family: "Agency FB";
+    font-family: "outageregular", serif;
     font-weight: normal;
     font-size: 35px;
 }
@@ -33,14 +31,14 @@ html, body {
 }
 
 .shadower {
-    background: -webkit-linear-gradient(#ff0000, #ff0000);
+    background: -webkit-linear-gradient(rgba(135,0,255,1), rgba(169,0,194,1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .shadowed {
     /*text-shadow: 0px 0px 5px #ff0000;*/
-    background: -webkit-linear-gradient(#000000, #ff0000);
+    background: -webkit-linear-gradient(#000000, rgba(135,0,255,1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -49,10 +47,7 @@ html, body {
 }
 
 .navlink {
-    color: #ff0000;
-    font-family: "Agency FB";
-    font-size: 21px;
-    text-decoration: none;
+    color: rgba(135,0,255,1);
 }
 
 .navlink:active {
@@ -63,24 +58,28 @@ html, body {
 }
 
 .page-button {
-    background: #ff0000;
+    transition: background .5s, color .5s, padding .5s, font-weight .5s, font-size .5s, box-shadow .5s;
+    background: -webkit-linear-gradient(rgba(135,0,255,1), rgba(169,0,194,1));
     border: none;
     color: #000000;
     font-weight: bolder;
     font-size: 20px;
-    font-family: "Agency FB";
 }
 
 .page-button:hover {
-    box-shadow: 0 0 15px #ff0000;
+    transition: background .5s, color .5s, padding .5s, font-weight .5s, font-size .5s, box-shadow .5s;
+    box-shadow: 0 0 15px rgba(135,0,255,1);
+    background: -webkit-linear-gradient(rgba(169,0,194,1), rgba(135,0,255,1));
 }
 
 .page-button:active {
+    transition: background .5s, color .5s, padding .5s, font-weight .5s, font-size .5s, box-shadow .5s;
     color: white;
 }
 
 .link-button {
-    background: #ff0000;
+    transition-duration: .5s;
+    background: -webkit-linear-gradient(rgba(135,0,255,1), rgba(169,0,194,1));
     border: none;
     color: #000000;
     font-weight: bolder;
@@ -89,7 +88,9 @@ html, body {
 }
 
 .link-button:hover {
-    box-shadow: 0 0 15px #ff0000;
+    transition-duration: .5s;
+    box-shadow: 0 0 15px rgba(135,0,255,1);
+    background: -webkit-linear-gradient(rgba(169,0,194,1), rgba(135,0,255,1));
 }
 
 .link-button:active {

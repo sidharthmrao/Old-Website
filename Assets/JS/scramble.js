@@ -52,7 +52,7 @@ class TextScramble {
     }
 }
 
-const phrases = ["Programmer", "AI Enthusiast", "Sci-Fi Afficianado"];
+const phrases = ["Programmer", "AI Enthusiast", "Sci-Fi Aficionado"];
 
 const el = document.querySelector(".scrambletext");
 const fx = new TextScramble(el);
