@@ -2,28 +2,20 @@ html, body {
     background-color: white;
 }
 
+ul, li {
+    color: blue;
+}
+
 #Main_Title {
-    font-family: "Agency FB";
-    font-weight: bold;
-    font-size: 100px;
 }
 
 #SubText {
-    font-family: "Agency FB";
-    font-weight: bold;
-    font-size: 35px;
 }
 
 #Information_Header {
-    font-family: "Agency FB";
-    font-weight: normal;
-    font-size: 35px;
 }
 
 #Resume_Header {
-    font-family: "Agency FB";
-    font-weight: normal;
-    font-size: 35px;
 }
 
 #infolink {
@@ -33,13 +25,14 @@ html, body {
 }
 
 .shadower {
-    background: #0076FFE6;
+    background: -webkit-linear-gradient(dodgerblue, deepskyblue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .shadowed {
-    background: #0076FFE6;
+    /*text-shadow: 0px 0px 5px #ff0000;*/
+    background: dodgerblue;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -48,10 +41,7 @@ html, body {
 }
 
 .navlink {
-    color: #0076FFE6;
-    font-family: "Agency FB";
-    font-size: 21px;
-    text-decoration: none;
+    color: dodgerblue;
 }
 
 .navlink:active {
@@ -62,18 +52,85 @@ html, body {
 }
 
 .page-button {
-    background: #0076FFE6;
+    transition: background .5s, color .5s, padding .5s, font-weight .5s, font-size .5s, box-shadow .5s;
+    background: -webkit-linear-gradient(dodgerblue, deepskyblue);
     border: none;
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: "Agency FB";
+    color: white;
 }
 
 .page-button:hover {
-    box-shadow: 0 0 15px #0076FFE6;
+    transition: background .5s, color .5s, padding .5s, font-weight .5s, font-size .5s, box-shadow .5s;
+    box-shadow: 0 0 15px dodgerblue;
+    background: -webkit-linear-gradient(dodgerblue, deepskyblue);
 }
 
 .page-button:active {
-    color: #ff0000;
+    transition: background .5s, color .5s, padding .5s, font-weight .5s, font-size .5s, box-shadow .5s;
+    color: white;
+}
+
+.link-button {
+    transition-duration: .5s;
+    background: -webkit-linear-gradient(dodgerblue, deepskyblue);
+    color: white;
+}
+
+.link-button:hover {
+    transition-duration: .5s;
+    box-shadow: 0 0 15px dodgerblue;
+    background: -webkit-linear-gradient(dodgerblue, deepskyblue);
+}
+
+.link-button:active {
+    color: white;
+}
+
+.social-button {
+    transition: box-shadow .5s, border-color .5s;
+    border-color: dodgerblue;
+    background-color: #171516;
+}
+
+.social-button:hover {
+    transition-duration: .5s;
+    box-shadow: 0 0 15px dodgerblue;
+}
+
+.social-button:active {
+    transition: border-color .5s;
+    border-color: white;
+}
+
+.paradiv {
+    transition: all .5s;
+    background-color: white;
+    border-color: dodgerblue;
+}
+
+.paradiv:hover {
+    transition-duration: .5s;
+    box-shadow: 0 0 15px dodgerblue;
+}
+
+.parainnerdiv {
+}
+
+.parapara {
+}
+
+.specialpara {
+    color: dodgerblue;
+    animation: specialpara-pulse 0.9s infinite ease-out;
+}
+
+@keyframes specialpara-pulse {
+    0% {
+        box-shadow: 0 0 0 dodgerblue;
+    }
+    50% {
+        box-shadow: 0 0 30px dodgerblue;
+    }
+    100% {
+        box-shadow: 0 0 0 dodgerblue;
+    }
 }

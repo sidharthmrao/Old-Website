@@ -5,6 +5,11 @@ function replace(style, logo) {
 
 function start() {
     light = false;
+    const isLight = window.matchMedia('(prefers-color-scheme: light)')
+    if (isLight.matches) {
+        replace("light.css", "Assets/logo-light.png")
+        light = true;
+    }
 }
 
 function run() {

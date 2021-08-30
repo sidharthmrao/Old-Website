@@ -2,26 +2,20 @@ html, body {
     background-color: black;
 }
 
+ul, li {
+    color: rgba(135,0,255,1);
+}
+
 #Main_Title {
-    font-weight: bold;
-    font-size: 100px;
 }
 
 #SubText {
-    font-weight: bold;
-    font-size: 35px;
 }
 
 #Information_Header {
-    font-family: "outageregular", serif;
-    font-weight: normal;
-    font-size: 35px;
 }
 
 #Resume_Header {
-    font-family: "outageregular", serif;
-    font-weight: normal;
-    font-size: 35px;
 }
 
 #infolink {
@@ -62,8 +56,6 @@ html, body {
     background: -webkit-linear-gradient(rgba(135,0,255,1), rgba(169,0,194,1));
     border: none;
     color: #000000;
-    font-weight: bolder;
-    font-size: 20px;
 }
 
 .page-button:hover {
@@ -80,11 +72,7 @@ html, body {
 .link-button {
     transition-duration: .5s;
     background: -webkit-linear-gradient(rgba(135,0,255,1), rgba(169,0,194,1));
-    border: none;
     color: #000000;
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: "Agency FB";
 }
 
 .link-button:hover {
@@ -96,3 +84,53 @@ html, body {
 .link-button:active {
     color: white;
 }
+
+.social-button {
+    transition: box-shadow .5s, border-color .5s;
+    border-color: rgba(135,0,255,1);
+    background-color: #171516;
+}
+
+.social-button:hover {
+    transition-duration: .5s;
+    box-shadow: 0 0 15px rgba(135,0,255,1);
+}
+
+.social-button:active {
+    transition: border-color .5s;
+    border-color: white;
+}
+
+.paradiv {
+    background-color: #171516;
+    border-color: rgba(135,0,255,1);
+}
+
+.paradiv:hover {
+    transition-duration: .5s;
+    box-shadow: 0 0 15px rgba(135,0,255,1);
+}
+
+.parainnerdiv {
+}
+
+.parapara {
+}
+
+.specialpara {
+    color: rgba(135,0,255,1);
+    animation: specialpara-pulse 0.9s infinite ease-out;
+}
+
+@keyframes specialpara-pulse {
+    0% {
+        box-shadow: 0 0 0 rgba(135,0,255,1);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(135,0,255,1);
+    }
+    100% {
+        box-shadow: 0 0 0 rgba(135,0,255,1);
+    }
+}
+
