@@ -141,7 +141,6 @@ ul, li {
 }
 
 .toggle{
-    animation: 1.5s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 navslidein;
     background: -webkit-linear-gradient(rgba(135,0,255,1), rgba(169,0,194,1));
     transition: 1s;
 }
