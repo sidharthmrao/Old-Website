@@ -2,10 +2,7 @@
     font-family: 'outageregular';
     src: url('Assets/fonts/outage-font/Outage-Regular.eot');
     src: url('Assets/fonts/outage-font/Outage-Regular.eot?#iefix') format('embedded-opentype'),
-    url('Assets/fonts/outage-font/Outage-Regular.woff2') format('woff2'),
-    url('Assets/fonts/outage-font/Outage-Regular.woff') format('woff'),
-    url('Assets/fonts/outage-font/Outage-Regular.ttf') format('truetype'),
-    url('Assets/fonts/outage-font/Outage-Regular.svg#Outage-Regular') format('svg');
+    url('Assets/fonts/outage-font/Outage-Regular.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -43,7 +40,7 @@ html, body {
 #Main_Title {
     transition: all .5s;
     animation: 1s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 titleslidedown;
-    font-family: Arial, serif;
+    font-family: outageregular, serif;
     display: flex;
     position: absolute;
     top: 40%;
