@@ -1,10 +1,14 @@
 @font-face {
     font-family: 'outageregular';
-    src: url('Assets/fonts/outage-font/outage1-webfont.woff2') format('woff2'),
-    url('Assets/fonts/outage-font/outage1-webfont.woff') format('woff');
-    font-weight: normal;
+    src: url('Assets/fonts/outage-font/Outage-Regular.eot');
+    src: url('Assets/fonts/outage-font/Outage-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Assets/fonts/outage-font/Outage-Regular.woff2') format('woff2'),
+    url('Assets/fonts/outage-font/Outage-Regular.woff') format('woff'),
+    url('Assets/fonts/outage-font/Outage-Regular.ttf') format('truetype'),
+    url('Assets/fonts/outage-font/Outage-Regular.svg#Outage-Regular') format('svg');
+    font-weight: bold;
     font-style: normal;
-
+    font-display: swap;
 }
 
 html, body {
