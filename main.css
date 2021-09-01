@@ -14,7 +14,7 @@ html, body {
 
 @keyframes titleslidedown {
     0% {
-        top: 30%
+        top: 30%;
     }
     100% {
         top: 40%;
@@ -31,6 +31,7 @@ html, body {
 }
 
 #Main_Title {
+    transition: all .5s;
     animation: 1s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 titleslidedown;
     font-family: outageregular, serif;
     display: flex;
@@ -38,10 +39,12 @@ html, body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 90px;
 }
 
 #SubText {
     animation: 1s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 subtitleslidedown;
+    font-size: 30px;
     font-family: outageregular, serif;
     display: flex;
     position: absolute;
@@ -70,12 +73,27 @@ html, body {
     transform: translate(-50%, -50%);
 }
 
+#Contact_Header {
+    font-family: outageregular, serif;
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #infolink {
     position: fixed;
-    right: 110px;
+    right: 200px;
 }
 
 #resulink {
+    position: fixed;
+    right: 117px;
+}
+
+#contactlink {
     position: fixed;
     right: 30px;
 }
@@ -142,10 +160,10 @@ html, body {
 
 @keyframes socialslideup {
     0% {
-        bottom: 10%;
+        top: 90%;
     }
     100% {
-        bottom: 40%;
+        top: 60%;
     }
 }
 
@@ -157,7 +175,7 @@ html, body {
     padding: 0px 0px 0px 0px;
     position: absolute;
     left: 50%;
-    bottom: 40%;
+    top: 60%;
     transform: translate(-50%, -50%);
 }
 
@@ -180,7 +198,7 @@ html, body {
 .paradiv {
     transition-duration: .5s;
     height: 60vh;
-    width : 750px;
+    width : 30%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -209,23 +227,102 @@ html, body {
 }
 
 #resume-jobs {
-    width: 450px;
     left: 17%;
     transform: translate(-50%, -50%);
 }
 
 #resume-skills {
-    width: 450px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 #resume-achievements {
-    width: 450px;
     left: 83%;
     transform: translate(-50%, -50%);
 }
 
 .specialpara {
     font-family: 'Poppins', sans-serif;
+}
+
+.fade-in {
+    transition: all 1s;
+    opacity: 0%;
+}
+
+.formlabel {
+    text-align: center;
+}
+
+button, label, input, select, textarea {
+    color: #9f01ea;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+}
+
+#emaillabel {
+    top: 20%;
+    font-weight: bold;
+}
+
+#emailinput {
+    top: 30%;
+}
+
+#messagelabel {
+    top: 45%;
+    font-weight: bold;
+}
+
+#messageinput {
+    top: 75%;
+    font-weight: bold;
+}
+
+label, input, textarea{
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    transition: all .5s;
+    text-align: center;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #9f01ea;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+input:focus {
+    transition: all .5s;
+    width: 40%;
+}
+
+textarea{
+    transition: all .5s;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+    outline: none;
+    border: 2px solid #9f01ea;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    resize: none;
+}
+
+textarea:focus {
+    transition: all .5s;
+    width: 60%;
+}
+
+
+
+form {
+
 }

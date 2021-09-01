@@ -19,11 +19,12 @@
 
 <body>
 
-        <nav>
+        <section>
             <a   onclick = "run()"> <img id = "logo" class = "logo" src = "Assets/logo.png"> </a>
             <a   id = "infolink" class = "navlink" href = "#information">INFORMATION</a>
             <a   id = "resulink" class = "navlink" href = "#resume">RESUME</a>
-        </nav>
+            <a   id = "contactlink" class = "navlink" href = "#contact">CONTACT</a>
+        </section>
 
         <!---TESTING--->
 
@@ -32,7 +33,7 @@
 
 
         <section id = "head" class = "section">
-            <h  style = "font-size: 90px;" id  = "Main_Title"  class = "shadower"          > SIDHARTH RAO    </h>
+            <h  id  = "Main_Title"  class = "shadower">SIDHARTH RAO</h>
             <h3 id  = "SubText"     class = "shadowed scrambletext"  ></h3>
             <button id = "githublink" type = "image" onclick = "window.open('https://github.com/sidharthmrao', '_blank')" class = "social-button">
                 <img class = social-img src="Assets/github-logo.png">
@@ -44,8 +45,8 @@
 
         <section id = "information" class = "section">
             <h id = "Information_Header" class = "shadower">INFORMATION</h>
-            <div class = "paradiv">
-                <div style = "height: auto; text-align: center;" class = "shadower parainnerdiv">
+            <div style = "overflow: auto; max-height:65%; height: auto; width: 60%;" class = "paradiv  fade-in">
+                <div style = "text-align: center;" class = "shadower parainnerdiv">
                     <p style="font-size: 20px;" class = "shadower parapara">
                         HI! I'M A JUNIOR AT CHOATE ROSEMARY HALL, A HIGH SCHOOL LOCATED IN WALLINGFORD, CONNECTICUT. I'M INTERESTED IN
                         COMPUTER SCIENCE, AI, WEB DESIGN, CYBER SECURITY, AND PROGRAMMING, MAINLY IN PYTHON. IN MY FREE TIME, I LIKE TO
@@ -60,8 +61,8 @@
         <section id = "resume" class = "section">
             <h id = "Resume_Header" class = "shadower">RESUME</h>
 
-            <div id = "resume-jobs" class = "paradiv">
-                <div style = "text-align: center; overflow: auto;" class = "shadower parainnerdiv">
+            <div style = " overflow: auto;" id = "resume-jobs" class = "paradiv fade-in">
+                <div style = "text-align: center;" class = "shadower parainnerdiv">
                     <h class = "shadower" style="font-weight: bold; text-align: center;">EXPERIENCE</h>
                     <p style = "text-align: left; border-color: transparent; font-weight: normal;" class = "shadower parapara">
                         - Rovicare AI : Programmer (Medical Forms OCR Analysis) <br><br>
@@ -73,7 +74,7 @@
                 </div>
             </div>
 
-            <div style = " overflow: auto;" id = "resume-skills" class = "paradiv">
+            <div style = " overflow: auto;" id = "resume-skills" class = "paradiv fade-in">
                 <div style = "text-align: center;" class = "shadower parainnerdiv">
                     <h class = "shadower" style="font-weight: bold; text-align: center;">SKILLS</h>
 
@@ -119,7 +120,7 @@
                 </div>
             </div>
 
-            <div id = "resume-achievements" class = "paradiv">
+            <div style = "overflow: auto;" id = "resume-achievements" class = "paradiv fade-in">
                 <div style = "text-align: center;" class = "shadower parainnerdiv">
                     <h class = "shadower" style="font-weight: bold; text-align: center;">ACHIEVEMENTS</h>
                     <p style = "text-align: left; border-color: transparent; font-weight: normal;" class = "shadower parapara">
@@ -136,14 +137,99 @@
             <a id = "resumedownload" href="Files/Sidharth Rao - Resume.pdf" download></a>
         </section>
 
+        <section id = "contact" class = "section">
+            <h id = "Contact_Header" class = "shadower">Contact</h>
+
+                <form action="https://formspree.io/f/xoqyyewk" method="POST">
+                    <div style = "overflow: auto; min-height: 40%; height: auto; width: 40%;" class = "paradiv  fade-in">
+                            <div style="">
+                                <div>
+                                    <label id = "emaillabel" class="formlabel">
+                                        YOUR EMAIL
+                                    </label>
+                                </div>
+                                <div>
+                                    <input id = "emailinput" type="email" name="_replyto">
+                                </div>
+
+                            </div>
+
+                            <div style="width: 60%;">
+                                <div>
+                                    <label id = "messagelabel" class="formlabel">
+                                        MESSAGE
+                                    </label>
+                                </div>
+                                <div>
+                                    <textarea id = "messageinput" name="message"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- your other form fields go here -->
+
+                    </div>
+                    <button type="submit" id = "sendemail" class = "page-button">SUBMIT</button>
+                </form>
+
+
+        </section>
+
+
         <script src="mode.js"></script>
         <script src="gameoflife.js"></script>
         <script src="Assets/JS/scramble.js"></script>
+
+
         <script>
             //window.onload = function() {start(); board();};
             window.onload = function() {start();}
 
+            var scroll = window.requestAnimationFrame ||
+                function(callback){ window.setTimeout(callback, 1000/60)};
+            var elementsToChange = document.querySelectorAll('.fade-in');
+
+            function loop() {
+                elementsToChange.forEach(function (element) {
+                    if (elementbelow(element)) {
+                        element.style.opacity = "100%";
+                    }
+                });
+                scroll(loop);
+            }
+
+            loop();
+
+            function elementbelow(element) {
+                if (element.getBoundingClientRect().y <500) {
+                    return true;
+                }
+            }
+
         </script>
+
+        <script>
+            let originalwindow = 1475;
+            let fontsize = 90;
+            let toResize = document.querySelectorAll('#Main_Title');
+
+            function resize() {
+                toResize.forEach(function (element) {
+                    let currentwindow = window.innerWidth;
+                    console.log(currentwindow);
+                    let ratio = currentwindow/originalwindow;
+                    let newfont = Math.round(ratio*fontsize);
+                    newfont = newfont.toString()+"px";
+                    console.log(newfont);
+                    element.style.fontSize = newfont;
+
+                });
+            }
+
+            resize();
+            window.addEventListener('resize', resize);
+            document.addEventListener('fullscreenchange', resize);
+        </script>
+
 
         <footer>
             <p class="specialpara">To access the repository for this page, visit this link: <a target = "_blank" href = "https://github.com/sidharthmrao/sidharthmrao.github.io">REPO</a></p>
