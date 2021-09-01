@@ -116,11 +116,10 @@ html, body {
 }
 
 #darkmodeswitch {
-    animation: 1.2s ease-out 0s 1 darkModeSlideIn;
-    position: absolute;
-    transform: translateY(-50%);
-    top: 52%;
-    right: 350px;
+    position: fixed;
+    top: 10px;
+    right: 330px;
+    z-index: 5;
 }
 
 .shadower {
@@ -344,6 +343,7 @@ textarea:focus {
 }
 
 .toggle{
+    animation: 1.5s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 navslidein;
     transition:0.3s;
     height:15px;
     border-radius:20px;
