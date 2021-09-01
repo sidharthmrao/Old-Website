@@ -43,7 +43,7 @@ html, body {
 #Main_Title {
     transition: all .5s;
     animation: 1s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 titleslidedown;
-    font-family: outageregular, serif;
+    font-family: Arial, serif;
     display: flex;
     position: absolute;
     top: 40%;
