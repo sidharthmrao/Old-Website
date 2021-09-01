@@ -12,6 +12,12 @@ html, body {
     height: 100%;
 }
 
+#navabove {
+    position: fixed;
+    height: 10px;
+    background: white;
+}
+
 @keyframes titleslidedown {
     0% {
         top: 30%;
@@ -96,6 +102,13 @@ html, body {
 #contactlink {
     position: fixed;
     right: 30px;
+}
+
+#darkmodeswitch {
+    position: fixed;
+    top: 10px;
+    right: 330px;
+    z-index: 5;
 }
 
 .shadower {
@@ -255,27 +268,26 @@ html, body {
 }
 
 button, label, input, select, textarea {
-    color: #9f01ea;
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
 }
 
 #emaillabel {
-    top: 20%;
+    top: 10%;
     font-weight: bold;
 }
 
 #emailinput {
-    top: 30%;
+    top: 20%;
 }
 
 #messagelabel {
-    top: 45%;
+    top: 35%;
     font-weight: bold;
 }
 
 #messageinput {
-    top: 75%;
+    top: 70%;
     font-weight: bold;
 }
 
@@ -291,7 +303,6 @@ input{
     width: 30%;
     border: none;
     outline: none;
-    border-bottom: 2px solid #9f01ea;
     padding: 5px 10px;
     box-sizing: border-box;
     background-color: transparent;
@@ -306,9 +317,8 @@ textarea{
     transition: all .5s;
     text-align: center;
     width: 50%;
-    height: 40%;
+    height: 50%;
     outline: none;
-    border: 2px solid #9f01ea;
     border-radius: 5px;
     padding: 5px 10px;
     box-sizing: border-box;
@@ -321,8 +331,35 @@ textarea:focus {
     width: 60%;
 }
 
-
-
-form {
-
+.toggle{
+    animation: 1.5s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 navslidein;
+    transition:0.3s;
+    height:15px;
+    border-radius:20px;
+    border-width: 10px;
+    width:50px;
+    padding:8px;
 }
+
+.toggle .circle{
+    height:15px;
+    width:15px;
+    background-color:white;
+    border-radius:100%;
+    transition:0.5s;
+}
+
+.toggle.active{
+    transition:0.5s;
+    background: -webkit-linear-gradient(rgba(135,0,255,1), rgba(169,0,194,1));
+}
+
+.toggle.active .circle{
+    margin-left:35px;
+}
+
+.togglehoverclass:hover {
+    transition:0.3s;
+    border-radius:15px;
+}
+

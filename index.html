@@ -20,10 +20,15 @@
 <body>
 
         <section>
-            <a   onclick = "run()"> <img id = "logo" class = "logo" src = "Assets/logo.png"> </a>
+            <a   href = "#top"> <img id = "logo" class = "logo" src = "Assets/logo.png"> </a>
             <a   id = "infolink" class = "navlink" href = "#information">INFORMATION</a>
             <a   id = "resulink" class = "navlink" href = "#resume">RESUME</a>
             <a   id = "contactlink" class = "navlink" href = "#contact">CONTACT</a>
+        </section>
+        <div id = "darkmodeswitch" onclick="run()" class="toggle togglehoverclass">
+            <div class="circle"></div>
+        </div>
+        <section id = "blocksection" style="top: 0%; height: 50px; width: 100%; position: fixed; z-index: 3;">
         </section>
 
         <!---TESTING--->
@@ -141,7 +146,7 @@
             <h id = "Contact_Header" class = "shadower">Contact</h>
 
                 <form action="https://formspree.io/f/xoqyyewk" method="POST">
-                    <div style = "overflow: auto; min-height: 40%; height: auto; width: 40%;" class = "paradiv  fade-in">
+                    <div style = "overflow: auto; min-height: 50%; height: auto; width: 40%;" class = "paradiv  fade-in">
                             <div style="">
                                 <div>
                                     <label id = "emaillabel" class="formlabel">
@@ -173,6 +178,8 @@
 
 
         </section>
+
+
 
 
         <script src="mode.js"></script>

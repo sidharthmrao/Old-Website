@@ -7,6 +7,11 @@ ul, li {
     color: rgba(135,0,255,1);
 }
 
+#blocksection {
+    transition: all 1s;
+    background-color: black;
+}
+
 #Main_Title {
 }
 
@@ -133,5 +138,26 @@ ul, li {
     100% {
         box-shadow: 0 0 0 rgba(135,0,255,1);
     }
+}
+
+.toggle{
+    animation: 1.5s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 navslidein;
+    background: -webkit-linear-gradient(rgba(135,0,255,1), rgba(169,0,194,1));
+    transition: 1s;
+}
+
+button, label, input, select, textarea {
+    transition: 1s;
+    color: #9f01ea;
+}
+
+input {
+    transition: 1s;
+    border-bottom: 2px solid #9f01ea;
+}
+
+textarea {
+    transition: 1s;
+    border: 2px solid #9f01ea;
 }
 

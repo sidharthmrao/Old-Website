@@ -7,6 +7,11 @@ ul, li {
     color: blue;
 }
 
+#blocksection {
+    transition: all 1s;
+    background-color: white;
+}
+
 #Main_Title {
 }
 
@@ -134,4 +139,28 @@ ul, li {
     100% {
         box-shadow: 0 0 0 dodgerblue;
     }
+}
+
+.toggle{
+    animation: 1.5s cubic-bezier(0.52,0.66,0.1,1.41) 0s 1 navslidein;
+    background: -webkit-linear-gradient(dodgerblue, deepskyblue);
+    transition: 1s;
+}
+.circle {
+    margin-left:35px;
+}
+
+button, label, input, select, textarea {
+    transition: 1s;
+    color: dodgerblue;
+}
+
+input {
+    transition: 1s;
+    border-bottom: 2px solid dodgerblue;
+}
+
+textarea {
+    transition: 1s;
+    border: 2px solid dodgerblue;
 }
