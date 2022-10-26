@@ -109,31 +109,10 @@ class Contact extends Component {
                 <h4>Contact</h4>
                 <p className="address">
                   {name}<br/>
-                  {"sidharthmrao@gmail.com"}
+                  {"sidmrao2022@gmail.com"}
                   {street} <br />
                   {city}, {state} {zip}
                 </p>
-              </div>
-
-              <div className="widget widget_tweets">
-                <h4 className="widget-title">My Friends' Websites:</h4>
-                <ul id="twitter">
-                  <li>
-                    <span>
-                      <a href="https://ryanyang.us">Ryan Yang</a>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://www.korvyakov.us">Michael Korvyakov</a>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://tsviii.wixsite.com/david">David Garsten</a>
-                    </span>
-                  </li>
-                </ul>
               </div>
             </aside>
           </Slide>
