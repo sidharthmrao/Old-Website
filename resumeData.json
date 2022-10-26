@@ -5,7 +5,7 @@
     "image": "profilepic.jpg",
     "bio": "Hi! I'm a Senior at Choate Rosemary Hall, a High School located in Wallingford, Connecticut. I'm interested in Computer Science, AI, Engineering, Cybersecurity, and Programming, mainly in Python. At school, I am the Lead Programmer, Lead Technician, and Field Team Lead on the Choate FRC robotics team and am part of the Advanced Robotics Concentration special program. I'm a cello player in Choate's Concert Orchestra, and outside of classes, I am the President of the Choate Aerospace Association Club. I volunteer at Robotics and Beyond, where I teach students Python, Machine Learning, and Edge Computing. In my free time, I mess around with Rubik's cubes, learn card magic and coin tricks, develop automated scripts for me to use in my daily life, and customize my personal Arch Linux based distro. On this website, you can find more information about me, my accomplishments, programs, and contact me.",
     "contactmessage": "Please contact me if you have any questions or just want to reach out!",
-    "email": "sidharthmrao@gmail.com",
+    "email": "sidmrao2022@gmail.com",
     "phone": "862-703-9713",
     "github": "https://github.com/sidharthmrao",
     "project": "https://www.linkedin.com/in/sidharth-rao-074770198/",
@@ -49,7 +49,7 @@
       {
         "company": "Software Engineering Intern",
         "title": "Rovicare AI",
-        "years": "June 2021 - Present",
+        "years": "June 2021 - October 2021",
         "description": "Created a Containerized API to allow fast, automatic extraction and transferring of data from scanned medical forms into databases using OCR. This reduced the processing time of medical data intake of patients by over 90%. Used Python, Flask, Google Cloud Vision API, Google Cloud Storage, and Docker."
       },
       {
