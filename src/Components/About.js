@@ -7,7 +7,7 @@ class About extends Component {
 
     const name = "Sidharth Rao";
     const profilepic = "images/" + this.props.data.image;
-    const resume = "files/Resume.pdf"
+    const resume = this.props.data.resumedownload;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -49,8 +49,8 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resume} className="button" download>
-                      <i className="fa fa-download"></i>Download Resume
+                    <a href={resume} className="button">
+                      <i className="fa fa-download"></i>LinkedIn Resume
                     </a>
                   </p>
                 </div>
