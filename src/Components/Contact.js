@@ -112,8 +112,6 @@ class Contact extends Component {
                   {"sidharthmrao@gmail.com"}
                   {street} <br />
                   {city}, {state} {zip}
-                  <br />
-                  <span>{phone}</span>
                 </p>
               </div>
 
