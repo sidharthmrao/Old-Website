@@ -53,42 +53,10 @@
         "description": "Created a Containerized API to allow fast, automatic extraction and transferring of data from scanned medical forms into databases using OCR. This reduced the processing time of medical data intake of patients by over 90%. Used Python, Flask, Google Cloud Vision API, Google Cloud Storage, and Docker."
       },
       {
-        "company": "AI and Robotics Evangelist, Volunteer",
+        "company": "AI and Robotics Volunteer Teacher",
         "title": "Robotics and Beyond",
         "years": "January 2021 - Present",
         "description": "Taught elementary school students basic Python skills, Developed and taught a course in AI with Edge Computers and TensorFlow Lite to high school students, developed and taught a course in Tensorflow, SKLearn, and Machine Learning to high school students."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Python",
-        "level": "0%",
-        "image": "PythonLogo.svg"
-      },
-      {
-        "name": "Robotics",
-        "level": "0%",
-        "image": "OnshapeLogo.png"
-      },
-      {
-        "name": "Onshape CAD",
-        "level": "0%",
-        "image": "OnshapeLogo.png"
-      },
-      {
-        "name": "Cyber Security",
-        "level": "0%",
-        "image": "OnshapeLogo.png"
-      },
-      {
-        "name": "Java",
-        "level": "0%",
-        "image": "JavaLogo.png"
-      },
-      {
-        "name": "ReactJs",
-        "level": "0%",
-        "image": "ReactLogo.png"
       }
     ]
   }
