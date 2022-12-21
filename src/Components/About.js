@@ -47,7 +47,7 @@ class About extends Component {
                 <div className="columns download">
                   <p>
                     <a href={resume} target="_blank" rel="noopener noreferrer" className="button">
-                      <i className="fa fa-linkedin-square"></i>LinkedIn Resume
+                      <i className="fa fa-save"></i>Resume
                     </a>
                   </p>
                 </div>
