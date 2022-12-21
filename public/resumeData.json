@@ -3,7 +3,7 @@
     "name": "SIDHARTH RAO",
     "description": "Programmer, AI Enthusiast, Sci-Fi Aficionado",
     "image": "profilepic.jpg",
-    "bio": "Hi! I'm a Senior at Choate Rosemary Hall, a High School located in Wallingford, Connecticut. I'm interested in Computer Science, AI, Engineering, Cybersecurity, and Programming, mainly in Python. At school, I am the Lead Programmer, Lead Technician, and Field Team Lead on the Choate FRC robotics team and am part of the Advanced Robotics Concentration special program. I'm a cello player in Choate's Concert Orchestra, and outside of classes, I am the President of the Choate Aerospace Association Club. I volunteer at Robotics and Beyond, where I teach students Python, Machine Learning, and Edge Computing. In my free time, I mess around with Rubik's cubes, learn card magic and coin tricks, develop automated scripts for me to use in my daily life, and customize my personal Arch Linux based distro. On this website, you can find more information about me, my accomplishments, programs, and contact me.",
+    "bio": "Hi! I'm a Senior at Choate Rosemary Hall, a High School located in Wallingford, Connecticut. I'm interested in Computer Science, AI, Engineering, Cybersecurity, and Programming, mainly in Python. At school, I am the Lead Programmer, and Lead Technician on Choate's FRC robotics team (Wired Boars 7407) and am part of the Advanced Robotics Concentration signature program. I'm a cello player in Choate's Concert Orchestra, and outside of classes, I am the President of the Choate Aerospace Association. I volunteer at Robotics and Beyond, where I teach students Python, Machine Learning, and Edge Computing. In my free time, I mess around with Rubik's cubes, learn card magic and coin tricks, develop automated scripts for me to use in my daily life, and customize my personal Arch Linux based distro.",
     "contactmessage": "Please contact me if you have any questions or just want to reach out!",
     "email": "sidmrao2022@gmail.com",
     "phone": "862-703-9713",
@@ -33,10 +33,16 @@
   "resume": {
     "education": [
       {
+        "school": "Cornell University",
+        "degree": "Upcoming Freshman",
+        "graduated": "Starting Fall 2023",
+        "description": "College of Engineering"
+      },
+      {
         "school": "Choate Rosemary Hall",
         "degree": "High School Senior",
         "graduated": "September 2019 - Present",
-        "description": "Lead Programmer, Lead Technician, Field Team Lead [Choate Robotics Team]\nDean's List [All Terms]\nChoate Cross Country JV\nPresident [Choate Aerospace Association]\nPicoCTF 2022 14th Place Nationally"
+        "description": "Lead Programmer, Lead Technician [Choate Robotics Team]\nDean's List [All Terms]\nChoate Cross Country JV\nPresident [Choate Aerospace Association]\nPicoCTF 2022 14th Place Nationally"
       }
     ],
     "work": [

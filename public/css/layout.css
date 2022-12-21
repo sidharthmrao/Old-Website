@@ -212,7 +212,7 @@ ul#nav li.current a { color: #1ABC9C; }
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
+#about .main-col { padding-right: 1%; }
 #about .download .button {
    margin-top: 6px;
    background: #444;

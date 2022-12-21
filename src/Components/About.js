@@ -21,16 +21,15 @@ class About extends Component {
       <section id="about">
         <Fade duration={1000}>
           <div className="row">
-            <div className="three columns">
+            <div className="five columns">
               <img
                 className="profile-pic"
                 src={profilepic}
                 alt="Sidharth Rao Profile Pic"
               />
             </div>
-            <div className="nine columns main-col">
+            <div className="seven columns main-col">
               <h2>About Me</h2>
-
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
