@@ -1,6 +1,6 @@
 # My personal website
 ### Sublinks:
- - Jeoprady: https://sidharthmrao.github.io/Jeopardy/?teams=4 (Repo at https://github.com/sidharthmrao/Jeopardy)
+ - Jeopardy: https://sidharthmrao.github.io/jeopardy/?teams=4 (Repo at https://github.com/sidharthmrao/jeopardy)
  - Volume Perception: https://sidharthmrao.github.io/volume-perception/ (Repo at https://github.com/sidharthmrao/volume-perception)
 
 ## Building and deploying
