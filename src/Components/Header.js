@@ -8,6 +8,7 @@ class Header extends Component {
 
     const project = this.props.data.project;
     const github = this.props.data.github;
+    const bored = this.props.data.bored;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
@@ -66,6 +67,9 @@ class Header extends Component {
                 </a>
                 <a href={github} target="_blank" rel="noopener noreferrer" className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
+                </a>
+                <a href={bored} target="_blank" rel="noopener noreferrer" style={{ marginLeft: 29 }} className="button btn mobile-btn">
+                  <i className="fa fa-github"></i>Bored
                 </a>
               </ul>
             </Fade>
