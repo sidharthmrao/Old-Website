@@ -19,7 +19,7 @@ class Resume extends Component {
       );
     });
 
-    const work = this.props.data.work.map(function (work) {
+    const experience = this.props.data.experience.map(function (work) {
       return (
         <div key={work.company}>
           <h3>{work.company}</h3>
@@ -54,11 +54,11 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Experience</span>
               </h1>
             </div>
 
-            <div className="nine columns main-col">{work}</div>
+            <div className="nine columns main-col">{experience}</div>
           </div>
         </Slide>
       </section>
