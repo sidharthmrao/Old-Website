@@ -5,17 +5,18 @@
     "image": "profilepic.jpg",
     "bio": "Hi! I'm a Senior at Choate Rosemary Hall, a High School located in Wallingford, Connecticut. I'm interested in Computer Science, AI, Engineering, Cybersecurity, and Programming, mainly in Python. At school, I am the Lead Programmer, and Lead Technician on Choate's FRC robotics team (Wired Boars 7407) and am part of the Advanced Robotics Concentration signature program. I'm a cello player in Choate's Concert Orchestra, and outside of classes, I am the President of the Choate Aerospace Association. I volunteer at Robotics and Beyond, where I teach students Python, Machine Learning, and Edge Computing. In my free time, I mess around with Rubik's cubes, learn card magic and coin tricks, develop automated scripts for me to use in my daily life, and customize my personal Arch Linux based distro.",
     "contactmessage": "Please contact me if you have any questions or just want to reach out!",
-    "email": "sidmrao2022@gmail.com",
+    "email": "sid@iamsrao.com",
     "phone": "862-703-9713",
     "github": "https://github.com/sidharthmrao",
     "project": "https://www.linkedin.com/in/sidharth-rao-074770198/",
+    "bored": "https://bored.iamsrao.com",
     "address": {
       "street": "",
       "city": "Wallingford",
       "state": "CT",
       "zip": "06492"
     },
-    "website": "sidharthmrao.github.io",
+    "website": "https://iamsrao.com",
     "resumedownload": "files/Resume.PDF",
     "social": [
       {
@@ -34,14 +35,14 @@
     "education": [
       {
         "school": "Cornell University",
-        "degree": "Upcoming Freshman",
-        "graduated": "Starting Fall 2023",
+        "degree": "Bachelor of Science in Computer Science",
+        "graduated": "Expected May 2027",
         "description": "College of Engineering"
       },
       {
         "school": "Choate Rosemary Hall",
-        "degree": "High School Senior",
-        "graduated": "September 2019 - Present",
+        "degree": "Diploma",
+        "graduated": "May 2023",
         "description": "Lead Programmer, Lead Technician - Choate Robotics Team\nChoate Cross Country JV\nPresident - Choate Aerospace Association\n\nDean's List\nBB&N Hackathon Winner\nInnovation in Control at FRC Worlds in Houston\nPicoCTF 2022 14th Place Nationally"
       }
     ],
