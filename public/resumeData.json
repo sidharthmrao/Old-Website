@@ -3,7 +3,7 @@
     "name": "SIDHARTH RAO",
     "description": "Programmer, AI Enthusiast, Sci-Fi Aficionado",
     "image": "profilepic.jpg",
-    "bio": "Hi! I'm a Freshman in Cornell University's College of Engineering. I'm primarily interested in Computer Science, Robotics, Cybersecurity, and decentralized cryptosystems.\nIn my free time, I like to read, learn card magic and coin tricks, develop automated scripts for me to use in my daily life, and customize my computer (running Endeavor-Hyprland).",
+    "bio": "Hi! I'm a Freshman in Cornell University's College of Engineering. I'm primarily interested in Computer Science, Robotics, Cybersecurity, and decentralized cryptosystems.\n - In my free time, I like to read, learn card magic and coin tricks, develop automated scripts for me to use in my daily life, and customize my computer (running Endeavor-Hyprland).",
     "contactmessage": "Please contact me if you have any questions or just want to reach out!",
     "email": "sid@iamsrao.com, smr353@cornell.edu",
     "phone": "862-703-9713",
@@ -43,7 +43,7 @@
         "school": "Choate Rosemary Hall",
         "degree": "Diploma",
         "graduated": "May 2023",
-        "description": "Lead Programmer, Lead Technician - Choate Robotics Team\nChoate Cross Country JV\nPresident - Choate Aerospace Association\n\nDean's List\nBB&N Hackathon Winner\nInnovation in Control at FRC Worlds in Houston\nPicoCTF 2022 14th Place Nationally"
+        "description": "GPA: 4.35\n - Lead Programmer, Lead Technician - Choate Robotics Team\n - Choate Cross Country JV\n - President - Choate Aerospace Association\n - Dean's List\n - BB&N Hackathon Winner\n - Innovation in Control at FRC Worlds in Houston\n - PicoCTF 2022 14th Place Nationally"
       }
     ],
     "experience": [
@@ -51,25 +51,25 @@
         "company": "Robotics and Computer Engineering Intern",
         "title": "Cognite",
         "years": "June 2022 - August 2022",
-        "description": "Created an acoustic gas leak detection system for Boston Dynamics Spot and integrated it with Cognite’s data and robotics software platform.\nUsed computer vision on the acoustic gas leak detection output to estimate likelihood of gas leaks.\nDemoed the product to the client team.\nRegularly used Python, Linux (on SPOT, servers, and for development), Bash, and Docker."
+        "description": " - Created an acoustic gas leak detection system for Boston Dynamics Spot and integrated it with Cognite’s data and robotics software platform.\n - Used computer vision on the acoustic gas leak detection output to estimate likelihood of gas leaks.\n - Demoed the product to the client team.\n - Regularly used Python, Linux (on SPOT, servers, and for development), Bash, and Docker."
       },
       {
         "company": "Lead Programmer, Technician",
         "title": "Choate FRC Robotics Team",
         "years": "September 2021 – May 2023",
-        "description": "Led the programming team of the FRC Wired Boars (7407). Helped in bringing the team to semifinals and winning the Innovation in Control award in its division at FRC worlds. \nDeveloped reliable robot code, incorporating Computer Vision for ball shooting and tracking, Gyroscopic Sensors and Fiducial-tracking for robot odometry (position tracking), and a variety of other sensors including color, IR, and more to handle the robot’s inner mechanisms and game pieces.\nDeveloped a core library for the team and many other FRC teams to use across separate code-bases for different competitions (7407-Robotpy-Toolkit).\nCreated a GUI to visualize and adjust robot autonomous pathing (AutoBoard).\nWorked regularly with Python, Github, Linux (on the robot, for vision, and for development)."
+        "description": " - Led the programming team of the FRC Wired Boars (7407). Helped in bringing the team to semifinals and winning the Innovation in Control award in its division at FRC worlds. \n - Developed reliable robot code, incorporating Computer Vision for ball shooting and tracking, Gyroscopic Sensors and Fiducial-tracking for robot odometry (position tracking), and a variety of other sensors including color, IR, and more to handle the robot’s inner mechanisms and game pieces.\n - Developed a core library for the team and many other FRC teams to use across separate code-bases for different competitions (7407-Robotpy-Toolkit).\n - Created a GUI to visualize and adjust robot autonomous pathing (AutoBoard).\n - Worked regularly with Python, Github, Linux (on the robot, for vision, and for development)."
       },
       {
         "company": "Software Engineering Intern",
         "title": "Rovicare AI",
         "years": "June 2021 - October 2021",
-        "description": "Created a containerized API to allow fast, automatic extraction and transferring of data from scanned medical forms into databases using OCR, reducing the processing time of medical data intake of patients by over 90%.\nUsed Python, Flask, GCP Vision API, GCS, Docker."
+        "description": " - Created a containerized API to allow fast, automatic extraction and transferring of data from scanned medical forms into databases using OCR, reducing the processing time of medical data intake of patients by over 90%.\n - Used Python, Flask, GCP Vision API, GCS, Docker."
       },
       {
         "company": "AI and Robotics Volunteer Teacher",
         "title": "Robotics and Beyond",
         "years": "January 2021 - Present",
-        "description": "Taught Elementary school students basic Python skills.\nDeveloped and taught a course in AI with Edge Computers and Tensorflow Lite to High School students.\nTaught a course in Machine Learning, and currently developing a robotics course."
+        "description": " - Taught Elementary school students basic Python skills.\n - Developed and taught a course in AI with Edge Computers and Tensorflow Lite to High School students.\n - Taught a course in Machine Learning, and currently developing a robotics course."
       }
     ]
   }
