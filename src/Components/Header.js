@@ -38,8 +38,14 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a href="/files/Resume.PDF">
                 Resume
+              </a>
+            </li>
+
+	    <li>
+              <a href="https://bored.iamsrao.com">
+                Projects
               </a>
             </li>
 
