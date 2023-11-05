@@ -23,7 +23,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>Website made by Sidharth Rao. Last updated September 24th, 2023.</li>
+                <li>Website made by Sidharth Rao. Last updated November 4th, 2023.</li>
               </ul>
             </div>
           </Fade>
